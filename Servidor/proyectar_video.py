@@ -7,7 +7,7 @@ from flask import Flask, Response
 from base64 import b64encode
 
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 @app.route('/')
 def index():
